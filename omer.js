@@ -144,6 +144,7 @@ function regionTableUI(countryArray) {
     
     
             regionTable.appendChild(regionRow)
+            return regionTable
         })
     } catch (error){
         console.log(error)
